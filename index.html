@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Bomb Them All Out</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #555;
+    --accent: #1565c0;
+    --border: #e0e0e0;
+    --card: #f7f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15171a;
+      --fg: #e8e8e8;
+      --muted: #a0a0a0;
+      --accent: #5b9bd5;
+      --border: #2c2f34;
+      --card: #1d2024;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15171a; --fg: #e8e8e8; --muted: #a0a0a0;
+    --accent: #5b9bd5; --border: #2c2f34; --card: #1d2024;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.3rem; margin: 40px 0 10px; color: var(--accent); }
+  h3 { font-size: 1.05rem; margin: 24px 0 6px; }
+  .sub { color: var(--muted); font-size: 0.95rem; margin: 0 0 8px; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 32px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .lang-switch { display: flex; gap: 8px; margin-bottom: 28px; }
+  .lang-switch button {
+    font: inherit; font-size: 0.9rem; cursor: pointer;
+    background: var(--card); color: var(--fg);
+    border: 1px solid var(--border); border-radius: 8px;
+    padding: 6px 16px;
+  }
+  .lang-switch button[aria-pressed="true"] {
+    background: var(--accent); color: #fff; border-color: var(--accent);
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px 20px; margin: 16px 0;
+  }
+  .contact { font-weight: 600; }
+  section[hidden] { display: none; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="lang-switch" role="group" aria-label="Language">
+    <button id="btn-en" aria-pressed="true" onclick="setLang('en')">English</button>
+    <button id="btn-pl" aria-pressed="false" onclick="setLang('pl')">Polski</button>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <section id="en">
+    <h1>Privacy Policy</h1>
+    <p class="sub">Bomb Them All Out</p>
+    <p class="meta">Last updated: 14 October 2026</p>
+
+    <p>This Privacy Policy explains how <strong>CodeFusion</strong> ("we", "us", or "our")
+    handles information in connection with the mobile game <strong>Bomb Them All Out</strong>
+    (the "Game"). By downloading and playing the Game, you agree to the practices described below.</p>
+
+    <h2>1. Information we collect</h2>
+    <p>We do not ask you to create an account and we do not intentionally collect
+    personal information that directly identifies you (such as your name or email address)
+    through the Game itself.</p>
+
+    <p>However, the Game displays advertising provided by a third-party advertising
+    partner. To serve ads, that partner and its mediated ad networks may automatically
+    collect certain information from your device, including:</p>
+    <ul>
+      <li>Advertising identifiers (e.g. Google Advertising ID / GAID);</li>
+      <li>Device information (device model, operating system version, language, country/region);</li>
+      <li>Approximate, non-precise location derived from your IP address;</li>
+      <li>Information about ad interactions (impressions, clicks).</li>
+    </ul>
+
+    <h3>Data stored only on your device</h3>
+    <p>The Game saves your progress (best distance, coins, purchased upgrades, and
+    sound/haptic settings) locally on your device using standard app storage.
+    This data stays on your device, is not transmitted to us, and is removed when
+    you uninstall the Game.</p>
+
+    <h2>2. Advertising</h2>
+    <p>The Game uses <strong>LevelPlay</strong> (an advertising mediation platform by
+    Unity / ironSource) to display ads, which may in turn load ads from third-party
+    advertising networks. These partners process device and advertising data to show
+    and measure ads, including potentially personalized ads.</p>
+    <div class="card">
+      You can limit ad personalization at any time in your device settings:
+      <br><strong>Android → Settings → Google → Ads</strong>, where you can reset or
+      delete your Advertising ID and opt out of personalized advertising.
+    </div>
+    <p>For more information on how our advertising partner handles data, please see the
+    LevelPlay / ironSource privacy policy:
+    <a href="https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/" target="_blank" rel="noopener">ironSource Privacy Policy</a>.</p>
+
+    <h2>3. Children's privacy</h2>
+    <p>The Game is not directed at children under the age of 13 (or the minimum age
+    required in your country). We do not knowingly collect personal information from
+    children. If you believe a child has provided us with personal information,
+    please contact us and we will take appropriate steps to remove it.</p>
+
+    <h2>4. How the data is used</h2>
+    <p>Data collected by our advertising partner is used to:</p>
+    <ul>
+      <li>Display advertising within the Game;</li>
+      <li>Measure the performance and reach of advertising;</li>
+      <li>Prevent fraud and ensure the ads function correctly.</li>
+    </ul>
+    <p>We ourselves do not sell your personal data.</p>
+
+    <h2>5. Data retention</h2>
+    <p>Locally stored game data remains on your device until you delete it or uninstall
+    the Game. Data handled by our advertising partner is retained according to that
+    partner's own privacy policy.</p>
+
+    <h2>6. Your rights</h2>
+    <p>Depending on your location (for example under the GDPR in the European Union),
+    you may have rights to access, correct, or delete personal data relating to you,
+    and to object to certain processing. To exercise these rights with respect to
+    advertising data, please refer to the advertising partner's privacy policy above,
+    or contact us using the details below.</p>
+
+    <h2>7. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted
+    on this page with an updated "Last updated" date.</p>
+
+    <h2>8. Contact</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+    <p class="contact">CodeFusion<br>
+    <a href="mailto:codefusion.fychan@gmail.com">codefusion.fychan@gmail.com</a></p>
+  </section>
+
+  <!-- ===================== POLSKI ===================== -->
+  <section id="pl" hidden>
+    <h1>Polityka Prywatności</h1>
+    <p class="sub">Bomb Them All Out</p>
+    <p class="meta">Ostatnia aktualizacja: 14 października 2026</p>
+
+    <p>Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób <strong>CodeFusion</strong>
+    („my") obchodzi się z informacjami w związku z grą mobilną
+    <strong>Bomb Them All Out</strong> („Gra"). Pobierając i grając w Grę, akceptujesz
+    opisane poniżej zasady.</p>
+
+    <h2>1. Jakie informacje zbieramy</h2>
+    <p>Nie wymagamy zakładania konta i nie zbieramy celowo danych osobowych, które
+    bezpośrednio Cię identyfikują (takich jak imię i nazwisko czy adres e-mail)
+    za pośrednictwem samej Gry.</p>
+
+    <p>Gra wyświetla jednak reklamy dostarczane przez zewnętrznego partnera reklamowego.
+    Aby wyświetlać reklamy, partner ten oraz współpracujące z nim sieci reklamowe mogą
+    automatycznie zbierać z Twojego urządzenia pewne informacje, w tym:</p>
+    <ul>
+      <li>Identyfikatory reklamowe (np. Google Advertising ID / GAID);</li>
+      <li>Informacje o urządzeniu (model, wersja systemu operacyjnego, język, kraj/region);</li>
+      <li>Przybliżoną, nieprecyzyjną lokalizację ustaloną na podstawie adresu IP;</li>
+      <li>Informacje o interakcjach z reklamami (wyświetlenia, kliknięcia).</li>
+    </ul>
+
+    <h3>Dane przechowywane wyłącznie na Twoim urządzeniu</h3>
+    <p>Gra zapisuje Twoje postępy (najlepszy dystans, monety, zakupione ulepszenia oraz
+    ustawienia dźwięku/wibracji) lokalnie na urządzeniu, korzystając ze standardowego
+    magazynu aplikacji. Dane te pozostają na Twoim urządzeniu, nie są przesyłane do nas
+    i są usuwane po odinstalowaniu Gry.</p>
+
+    <h2>2. Reklamy</h2>
+    <p>Gra korzysta z platformy <strong>LevelPlay</strong> (platforma mediacji reklam
+    firmy Unity / ironSource) do wyświetlania reklam, która z kolei może ładować reklamy
+    z zewnętrznych sieci reklamowych. Partnerzy ci przetwarzają dane urządzenia i dane
+    reklamowe w celu wyświetlania i mierzenia reklam, w tym potencjalnie reklam
+    spersonalizowanych.</p>
+    <div class="card">
+      W każdej chwili możesz ograniczyć personalizację reklam w ustawieniach urządzenia:
+      <br><strong>Android → Ustawienia → Google → Reklamy</strong>, gdzie możesz
+      zresetować lub usunąć swój identyfikator reklamowy oraz zrezygnować z reklam
+      spersonalizowanych.
+    </div>
+    <p>Więcej informacji o tym, jak nasz partner reklamowy przetwarza dane, znajdziesz
+    w polityce prywatności LevelPlay / ironSource:
+    <a href="https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/" target="_blank" rel="noopener">Polityka prywatności ironSource</a>.</p>
+
+    <h2>3. Prywatność dzieci</h2>
+    <p>Gra nie jest skierowana do dzieci poniżej 13. roku życia (lub minimalnego wieku
+    wymaganego w Twoim kraju). Nie zbieramy świadomie danych osobowych od dzieci. Jeśli
+    uważasz, że dziecko przekazało nam dane osobowe, skontaktuj się z nami, a podejmiemy
+    odpowiednie kroki w celu ich usunięcia.</p>
+
+    <h2>4. Jak wykorzystywane są dane</h2>
+    <p>Dane zbierane przez naszego partnera reklamowego są wykorzystywane do:</p>
+    <ul>
+      <li>Wyświetlania reklam w Grze;</li>
+      <li>Mierzenia skuteczności i zasięgu reklam;</li>
+      <li>Zapobiegania oszustwom i zapewnienia poprawnego działania reklam.</li>
+    </ul>
+    <p>My sami nie sprzedajemy Twoich danych osobowych.</p>
+
+    <h2>5. Okres przechowywania danych</h2>
+    <p>Dane gry zapisane lokalnie pozostają na Twoim urządzeniu do momentu ich usunięcia
+    lub odinstalowania Gry. Dane przetwarzane przez naszego partnera reklamowego są
+    przechowywane zgodnie z polityką prywatności tego partnera.</p>
+
+    <h2>6. Twoje prawa</h2>
+    <p>W zależności od miejsca zamieszkania (na przykład na mocy RODO w Unii Europejskiej)
+    możesz mieć prawo dostępu do dotyczących Cię danych osobowych, ich poprawienia lub
+    usunięcia oraz sprzeciwu wobec niektórych form przetwarzania. Aby skorzystać z tych
+    praw w odniesieniu do danych reklamowych, zapoznaj się z polityką prywatności
+    partnera reklamowego powyżej lub skontaktuj się z nami, korzystając z danych poniżej.</p>
+
+    <h2>7. Zmiany w polityce</h2>
+    <p>Możemy od czasu do czasu aktualizować niniejszą Politykę Prywatności. Wszelkie
+    zmiany będą publikowane na tej stronie wraz z nową datą „Ostatnia aktualizacja".</p>
+
+    <h2>8. Kontakt</h2>
+    <p>Jeśli masz pytania dotyczące niniejszej Polityki Prywatności, skontaktuj się z nami:</p>
+    <p class="contact">CodeFusion<br>
+    <a href="mailto:codefusion.fychan@gmail.com">codefusion.fychan@gmail.com</a></p>
+  </section>
+
+  <footer>
+    © 2026 CodeFusion · Bomb Them All Out
+  </footer>
+
+</div>
+
+<script>
+  function setLang(lang) {
+    var en = document.getElementById('en');
+    var pl = document.getElementById('pl');
+    var btnEn = document.getElementById('btn-en');
+    var btnPl = document.getElementById('btn-pl');
+    var showEn = lang === 'en';
+    en.hidden = !showEn;
+    pl.hidden = showEn;
+    btnEn.setAttribute('aria-pressed', showEn ? 'true' : 'false');
+    btnPl.setAttribute('aria-pressed', showEn ? 'false' : 'true');
+    document.documentElement.lang = lang;
+    try { localStorage.setItem('btao_privacy_lang', lang); } catch (e) {}
+  }
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('btao_privacy_lang'); } catch (e) {}
+    if (!saved) {
+      saved = (navigator.language || 'en').toLowerCase().indexOf('pl') === 0 ? 'pl' : 'en';
+    }
+    setLang(saved);
+  })();
+</script>
+</body>
+</html>
